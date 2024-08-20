@@ -1,1 +1,0 @@
-prompt_example = "Hola, qué haces?"
