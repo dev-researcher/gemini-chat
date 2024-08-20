@@ -12,7 +12,7 @@ def chat_with_model(prompt):
     )
     return response.predictions[0]["content"]
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     prompt = input("Say something: ")
     response = chat_with_model(prompt)
     print(f"Model response: {response}")
